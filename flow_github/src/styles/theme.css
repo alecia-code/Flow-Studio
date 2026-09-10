@@ -1,0 +1,193 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+  --background: #E3EEF8;
+  --foreground: #003D80;
+  --card: #E3EEF8;
+  --card-foreground: #003D80;
+  --popover: #E3EEF8;
+  --popover-foreground: #003D80;
+  --primary: #003D80;
+  --primary-foreground: #ffffff;
+  --secondary: #E3EEF8;
+  --secondary-foreground: #003D80;
+  --muted: #AECCEF;
+  --muted-foreground: #1A5296;
+  --accent: #AECCEF;
+  --accent-foreground: #003D80;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: #AECCEF;
+  --input: transparent;
+  --input-background: #E3EEF8;
+  --switch-background: #AECCEF;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: #AECCEF;
+  --chart-1: #003D80;
+  --chart-2: #5A8CC0;
+  --chart-3: #AECCEF;
+  --chart-4: #D4E5F5;
+  --chart-5: #1A5296;
+  --radius: 1rem;
+  --sidebar: #E3EEF8;
+  --sidebar-foreground: #003D80;
+  --sidebar-primary: #003D80;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #AECCEF;
+  --sidebar-accent-foreground: #003D80;
+  --sidebar-border: #AECCEF;
+  --sidebar-ring: #AECCEF;
+
+  /* Brand palette */
+  --brand-bg: #E3EEF8;
+  --brand-card: #E3EEF8;
+  --brand-text: #003D80;
+  --brand-secondary: #1A5296;
+  --brand-navy: #003D80;
+  --brand-sky: #AECCEF;
+  --brand-pale: #D4E5F5;
+  --brand-mid: #5A8CC0;
+  --brand-border: #AECCEF;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --color-brand-bg: var(--brand-bg);
+  --color-brand-card: var(--brand-card);
+  --color-brand-text: var(--brand-text);
+  --color-brand-secondary: var(--brand-secondary);
+  --color-brand-navy: var(--brand-navy);
+  --color-brand-sky: var(--brand-sky);
+  --color-brand-pale: var(--brand-pale);
+  --color-brand-mid: var(--brand-mid);
+  --color-brand-border: var(--brand-border);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 400;
+    line-height: 1.15;
+  }
+
+  h1 {
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  h2 {
+    font-size: clamp(2rem, 3.5vw, 3.25rem);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  h3 {
+    font-size: clamp(1.4rem, 2.5vw, 2rem);
+    font-weight: 400;
+  }
+
+  h4 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  label {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  button {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  input, textarea {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 300;
+    line-height: 1.6;
+  }
+
+  p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.8;
+  }
+}
+
+@layer base {
+  body {
+    overflow-x: hidden;
+  }
+
+  :where(a, button, input, textarea, select, [tabindex]):focus-visible {
+    outline: 2px solid #5A8CC0;
+    outline-offset: 4px;
+  }
+}
