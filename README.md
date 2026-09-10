@@ -1,20 +1,11 @@
-# Flow Studio
 
-Flow Studio is the public website for Flow, an operations and business intelligence studio focused on helping small businesses see what is happening, understand why it matters, and build a simpler way forward.
+  # Premium Multi-Page Consulting Website
 
-This project was exported from Figma Make, refined outside Figma, and prepared for deployment with GitHub Pages.
+  This is a code bundle for Premium Multi-Page Consulting Website. The original project is available at https://www.figma.com/design/JQOhFQnvSzp2yjK8mhCr6L/Premium-Multi-Page-Consulting-Website.
 
-## Local development
+  ## Running the code
 
-```bash
-npm install
-npm run dev
-```
+  Run `npm i` to install the dependencies.
 
-## Production build
-
-```bash
-npm run build
-```
-
-GitHub Pages deployment is handled by `.github/workflows/deploy-pages.yml`.
+  Run `npm run dev` to start the development server.
+  
