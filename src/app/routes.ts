@@ -3,7 +3,7 @@ import { Layout } from './components/Layout';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { FieldNoteLumen } from './pages/FieldNote';
-import { FieldNoteRequest } from './pages/FieldNoteRequest';
+import { FieldNoteEmbed } from './pages/FieldNoteEmbed';
 import { FieldNoteThanks } from './pages/FieldNoteThanks';
 
 // Vite exposes the configured deployment base as BASE_URL. Using it as the
@@ -19,7 +19,7 @@ export const router = createBrowserRouter(
       children: [
         { index: true, Component: Home },
         { path: 'about', Component: About },
-        { path: 'field-note', Component: FieldNoteRequest },
+        { path: 'field-note', Component: FieldNoteEmbed },
         { path: 'field-note/lumen-pilates', Component: FieldNoteLumen },
         { path: 'field-note/thanks', Component: FieldNoteThanks },
       ],
