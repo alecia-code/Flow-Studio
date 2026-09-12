@@ -129,4 +129,77 @@
   /* Field Note page embed spacing. */
   #field-note-form { padding: 24px 16px 88px !important; }
   #field-note-form iframe { min-height: 820px !important; }
+
+  /* Keep first rows aligned with the same rule-to-copy rhythm as the rows below. */
+  #your-business .grid > div:nth-child(2) > div:first-child { padding-top: 40px !important; }
+  #you-dont-need .grid > div:nth-child(2) > div:first-child { padding-top: 28px !important; }
+
+  /* Flow Method equation stays a single left-to-right thought on phones. */
+  #method > div > div:nth-last-child(2) .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+  #method > div > div:nth-last-child(2) .grid > div {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    min-width: 0 !important;
+  }
+  #method > div > div:nth-last-child(2) .grid span {
+    font-size: 0.56rem !important;
+    letter-spacing: 0.055em !important;
+  }
+
+  /* Retention Engine: constrain all seven stages to the viewport instead of letting labels widen the page. */
+  #retention-system [style*="repeat(7, 1fr)"] {
+    grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
+  }
+  #retention-system [style*="repeat(7, 1fr)"] > div {
+    min-width: 0 !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+  }
+  #retention-system [style*="repeat(7, 1fr)"] > div > div {
+    font-size: 0.47rem !important;
+    letter-spacing: 0.035em !important;
+    line-height: 1.35 !important;
+    overflow-wrap: anywhere;
+  }
+  #retention-system svg[viewBox="0 0 1000 120"] {
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  /* Business Pulse mockup: four desktop metrics become a clean 2x2 mobile grid. */
+  #business-pulse [style*="repeat(4, 1fr)"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  #business-pulse [style*="repeat(4, 1fr)"] > div {
+    min-width: 0 !important;
+    padding: 20px 14px !important;
+  }
+  #business-pulse [style*="repeat(4, 1fr)"] > div:nth-child(2) {
+    border-right: none !important;
+  }
+  #business-pulse [style*="repeat(4, 1fr)"] > div:nth-child(-n+2) {
+    border-bottom: 1px solid #EAF2FA !important;
+  }
+  #business-pulse [style*="repeat(4, 1fr)"] > div > div:first-child {
+    font-size: 1.75rem !important;
+  }
+  #business-pulse [style*="1fr auto auto auto"] {
+    grid-template-columns: minmax(0, 1fr) auto auto !important;
+    gap: 8px !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  #business-pulse [style*="1fr auto auto auto"] > span:last-child {
+    display: none !important;
+  }
+  #business-pulse [style*="1fr auto auto auto"] > span {
+    min-width: 0 !important;
+    white-space: normal !important;
+  }
+  #business-pulse [style*="justify-content: space-between"] {
+    gap: 12px;
+    flex-wrap: wrap;
+  }
 }
