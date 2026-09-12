@@ -88,8 +88,8 @@ export function CaseStudyDashboard() {
         <div style={{ fontSize: '0.6rem', fontFamily: "'DM Sans', sans-serif", color: '#1A5296', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: '12px' }}>Class Type Breakdown</div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
           {classTypes.map(({ name, pct, color }) => (
-            <div key={name} style={{ display: 'grid', gridTemplateColumns: '52px minmax(0, 1fr) 28px', alignItems: 'center', columnGap: '10px' }}>
-              <span style={{ fontSize: '0.6875rem', fontFamily: "'DM Sans', sans-serif", color: '#1A5296', position: 'relative', zIndex: 1 }}>{name}</span>
+            <div key={name} style={{ display: 'grid', gridTemplateColumns: '72px minmax(0, 1fr) 28px', alignItems: 'center', columnGap: '10px' }}>
+              <span style={{ fontSize: '0.6875rem', fontFamily: "'DM Sans', sans-serif", color: '#1A5296', position: 'relative', zIndex: 1, whiteSpace: 'nowrap' }}>{name}</span>
               <div style={{ width: '100%', minWidth: 0, height: '4px', backgroundColor: '#D4E5F5', borderRadius: '100px', overflow: 'hidden' }}>
                 <motion.div
                   initial={{ width: 0 }}
