@@ -1,11 +1,56 @@
+# Flow Studio
 
-  # Premium Multi-Page Consulting Website
+**A consulting and systems studio for small businesses that need clearer operations, better visibility, and smarter workflows.**
 
-  This is a code bundle for Premium Multi-Page Consulting Website. The original project is available at https://www.figma.com/design/JQOhFQnvSzp2yjK8mhCr6L/Premium-Multi-Page-Consulting-Website.
+Flow Studio is a business and product concept I am building to explore how analytics, automation, process design, and thoughtful user experience can turn messy back-end operations into practical systems.
 
-  ## Running the code
+## The Problem
 
-  Run `npm i` to install the dependencies.
+Small businesses often have valuable information scattered across tools, manual follow-up processes, inconsistent workflows, and limited visibility into what is driving performance. Flow Studio is designed around a simple question: **What is the clearest system or insight that would make this business easier to run?**
 
-  Run `npm run dev` to start the development server.
-  
+## What I'm Building
+
+The current experience introduces Flow Studio and its **Field Note** diagnostic: a structured intake and analysis process designed to identify an operational opportunity, surface a useful insight, and recommend practical next steps.
+
+The broader concept includes:
+
+- Business process and workflow analysis
+- Operational dashboards and KPI reporting
+- Customer retention and revenue insights
+- Automation opportunities
+- Structured discovery and requirements gathering
+- Clear, decision-ready recommendations
+
+## Why This Project Matters
+
+Flow Studio brings together several parts of my professional background: business analysis, operational analytics, data quality, stakeholder discovery, process improvement, reporting, and AI-assisted workflows. It is also an exercise in translating business requirements into a usable digital experience and iterating from concept through implementation.
+
+## Technology
+
+- React
+- Vite
+- Tailwind CSS
+- Figma / Figma Make
+- GitHub Pages deployment workflow
+
+## Current Status
+
+Flow Studio is an actively evolving portfolio and business project. The current repository represents the public website build and will continue to develop as the service model, case studies, and client workflows mature.
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+---
+
+**Built by Jenna Hayes**  
+Business analysis · analytics · systems thinking · process improvement · AI-enabled workflows
