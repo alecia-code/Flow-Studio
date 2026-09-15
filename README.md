@@ -2,7 +2,7 @@
 
 **A consulting and systems studio for small businesses that need clearer operations, better visibility, and smarter workflows.**
 
-Flow Studio is a business and product concept I am building to explore how analytics, automation, process design, and thoughtful user experience can turn messy back-end operations into practical systems.
+Flow Studio is an actively evolving business and technology project that brings together analytics, automation, process design, AI-enabled workflows, and thoughtful user experience to turn messy back-end operations into practical systems.
 
 ## The Problem
 
@@ -23,7 +23,7 @@ The broader concept includes:
 
 ## Why This Project Matters
 
-Flow Studio brings together several parts of my professional background: business analysis, operational analytics, data quality, stakeholder discovery, process improvement, reporting, and AI-assisted workflows. It is also an exercise in translating business requirements into a usable digital experience and iterating from concept through implementation.
+Flow Studio brings together business analysis, operational analytics, data quality, stakeholder discovery, process improvement, reporting, systems thinking, and AI-enabled workflows in one evolving project.
 
 ## Technology
 
