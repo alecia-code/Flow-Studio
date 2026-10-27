@@ -300,7 +300,7 @@ export function HeroSection() {
                 margin: '0 0 36px',
               }}
             >
-              Flow helps you see it.
+              Jenna Alecia Studios helps you act on it.
             </p>
 
             {/* Body copy */}
@@ -364,7 +364,7 @@ export function HeroSection() {
           </button>
 
           <button
-            onClick={() => scrollTo('work')}
+            onClick={() => scrollTo('services')}
             style={{
               backgroundColor: 'transparent',
               color: '#1A5296',
@@ -383,7 +383,7 @@ export function HeroSection() {
             onMouseEnter={e => (e.currentTarget.style.color = '#003D80')}
             onMouseLeave={e => (e.currentTarget.style.color = '#1A5296')}
           >
-            See What Flow Found
+            Explore Our Services
             <span style={{ fontSize: '1rem', lineHeight: 1 }}>→</span>
           </button>
         </div>
