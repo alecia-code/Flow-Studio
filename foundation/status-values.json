@@ -1,1 +1,57 @@
-{"inquiries":["new","contacted","qualified","booked","lost"],"appointments":["scheduled","completed","cancelled","no_show"],"transactions":["pending","paid","refunded","void"]}
+{
+  "clients": [
+    "prospect",
+    "onboarding",
+    "active",
+    "paused",
+    "closed"
+  ],
+  "contacts": [
+    "lead",
+    "customer",
+    "inactive"
+  ],
+  "inquiries": [
+    "new",
+    "contacted",
+    "qualified",
+    "booked",
+    "lost"
+  ],
+  "appointments": [
+    "scheduled",
+    "completed",
+    "cancelled",
+    "no_show"
+  ],
+  "transactions": [
+    "pending",
+    "paid",
+    "refunded",
+    "void"
+  ],
+  "activities": [
+    "pending",
+    "completed",
+    "failed"
+  ],
+  "campaigns": [
+    "draft",
+    "active",
+    "paused",
+    "completed"
+  ],
+  "automation_events": [
+    "received",
+    "processing",
+    "succeeded",
+    "failed"
+  ],
+  "field_note_submissions": [
+    "new",
+    "reviewing",
+    "responded",
+    "qualified",
+    "archived"
+  ]
+}
