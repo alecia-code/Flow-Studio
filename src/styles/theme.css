@@ -203,3 +203,12 @@
     flex-wrap: wrap;
   }
 }
+
+/* Keyboard entry point and reduced-motion support. */
+.skip-link { position: fixed; top: -100px; left: 16px; z-index: 100; padding: 12px 20px; background: #003D80; color: white; border-radius: 8px; }
+.skip-link:focus { top: 12px; }
+section[id] { scroll-margin-top: 90px; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto !important; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

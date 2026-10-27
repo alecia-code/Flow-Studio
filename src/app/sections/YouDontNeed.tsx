@@ -34,7 +34,7 @@ export function YouDontNeedSection() {
         <div style={{marginTop:'96px'}}>
           <div style={{height:'1px',backgroundColor:'rgba(255,255,255,0.1)',marginBottom:'52px'}} />
           <div style={{display:'inline-flex',alignItems:'center',gap:'10px',marginBottom:'24px'}}><div style={{width:'24px',height:'1px',backgroundColor:'rgba(255,255,255,0.2)',flexShrink:0}} /><span style={{fontSize:'0.65rem',fontFamily:"'DM Sans', sans-serif",color:'#AECCEF',letterSpacing:'0.12em',textTransform:'uppercase'}}>That's Enough to Start.</span></div>
-          <div><p style={{fontFamily:"'Cormorant Garamond', serif",fontSize:'clamp(2.25rem, 4.5vw, 4rem)',color:'#F4F9FF',fontWeight:400,lineHeight:1.1,letterSpacing:'-0.02em',margin:'0 0 2px'}}>Flow starts with the question</p><p style={{fontFamily:"'Cormorant Garamond', serif",fontSize:'clamp(2.25rem, 4.5vw, 4rem)',color:'#AECCEF',fontWeight:300,fontStyle:'italic',lineHeight:1.1,letterSpacing:'-0.02em',margin:0}}>behind the question.</p></div>
+          <div><p style={{fontFamily:"'Cormorant Garamond', serif",fontSize:'clamp(2.25rem, 4.5vw, 4rem)',color:'#F4F9FF',fontWeight:400,lineHeight:1.1,letterSpacing:'-0.02em',margin:'0 0 2px'}}>My work starts with the question</p><p style={{fontFamily:"'Cormorant Garamond', serif",fontSize:'clamp(2.25rem, 4.5vw, 4rem)',color:'#AECCEF',fontWeight:300,fontStyle:'italic',lineHeight:1.1,letterSpacing:'-0.02em',margin:0}}>behind the question.</p></div>
         </div>
       </div>
     </section>

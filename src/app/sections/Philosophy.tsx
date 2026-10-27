@@ -224,7 +224,7 @@ export function PhilosophySection() {
                 margin: 0,
               }}
             >
-              That's where Flow starts.
+              That's where my work starts.
             </p>
           </div>
         </div>

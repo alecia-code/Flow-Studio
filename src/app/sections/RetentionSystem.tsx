@@ -152,13 +152,13 @@ export function RetentionSystemSection() {
         <div style={{ marginBottom: '88px' }}>
           <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(2.75rem, 5.5vw, 4.75rem)', color: '#003D80', lineHeight: 1.08, fontWeight: 400, letterSpacing: '-0.01em', margin: '0 0 4px' }}>Finding the problem</h2>
           <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(2.75rem, 5.5vw, 4.75rem)', color: '#1A5296', lineHeight: 1.08, fontWeight: 300, fontStyle: 'italic', letterSpacing: '-0.01em', margin: '0 0 36px' }}>was only the beginning.</p>
-          <p style={{ fontSize: '1.0625rem', fontFamily: "'DM Sans', sans-serif", color: '#003D80', lineHeight: 1.8, maxWidth: '520px', margin: 0 }}>So Flow designed a simple retention system around the behavior already hiding in the customer data.</p>
+          <p style={{ fontSize: '1.0625rem', fontFamily: "'DM Sans', sans-serif", color: '#003D80', lineHeight: 1.8, maxWidth: '520px', margin: 0 }}>So I designed a simple retention system around the behavior already hiding in the customer data.</p>
         </div>
 
         <div style={{ marginBottom: '88px' }}>
           <div style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', marginBottom: '32px' }}>
             <div style={{ width: '24px', height: '1px', backgroundColor: '#AECCEF', flexShrink: 0 }} />
-            <span style={{ fontSize: '0.65rem', fontFamily: "'DM Sans', sans-serif", color: '#1A5296', letterSpacing: '0.12em', textTransform: 'uppercase' }}>The Flow Retention Engine</span>
+            <span style={{ fontSize: '0.65rem', fontFamily: "'DM Sans', sans-serif", color: '#1A5296', letterSpacing: '0.12em', textTransform: 'uppercase' }}>The Retention Engine</span>
           </div>
           <RetentionFlow />
         </div>

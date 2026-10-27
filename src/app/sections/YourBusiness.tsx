@@ -13,7 +13,7 @@ const observations = [
   },
   {
     n: '03',
-    label: 'Flow Looks Underneath',
+    label: 'A Closer Look',
     body: "Bring the question. We'll find what's actually driving it.",
   },
 ];

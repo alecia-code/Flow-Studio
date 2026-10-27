@@ -92,7 +92,7 @@ export function Nav() {
     if (el) {
       el.scrollIntoView({ behavior: 'smooth' });
       if (location.hash !== `#${id}`) {
-        window.history.replaceState(null, '', `/#${id}`);
+        navigate(`/#${id}`, { replace: true });
       }
     }
   };

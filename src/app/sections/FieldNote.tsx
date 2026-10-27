@@ -4,11 +4,11 @@ const steps = [
   {
     n: '01',
     label: 'You Share the Question',
-    body: "Tell Flow what's been taking up mental space.",
+    body: "Tell me what's been taking up mental space.",
   },
   {
     n: '02',
-    label: 'Flow Looks Underneath',
+    label: 'A Closer Look',
     body: 'We review the information, behavior, and systems surrounding it.',
   },
   {
@@ -83,7 +83,7 @@ function FieldNoteMockup() {
             fontWeight: 600,
           }}
         >
-          Flow Field Note
+          Studio Field Note
         </span>
         <span
           style={{
@@ -257,7 +257,7 @@ function FieldNoteMockup() {
         {/* Rule */}
         <div style={{ height: '1px', backgroundColor: '#E8F2FB', marginBottom: '24px' }} />
 
-        {/* Flow Recommends */}
+        {/* Studio Recommendations */}
         <div style={{ marginBottom: '28px' }}>
           <div
             style={{
@@ -270,7 +270,7 @@ function FieldNoteMockup() {
               marginBottom: '12px',
             }}
           >
-            Flow Recommends
+            Studio Recommendations
           </div>
           <p
             style={{

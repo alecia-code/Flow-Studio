@@ -151,7 +151,7 @@ export function FieldNoteEmbed() {
             <SectionTagline>Begin</SectionTagline>
             <h2 style={{ color: '#003D80', marginBottom: '14px' }}>Tell Me What’s Going On</h2>
             <p style={{ color: '#1A5296', lineHeight: 1.8, maxWidth: '540px', margin: '0 auto' }}>
-              Your answers feed directly into Flow’s existing intake system, so your submission reaches the same Airtable and automation workflow already used for Field Notes.
+              Share what’s working, what feels complicated, and where you’d like more clarity. I’ll review your responses and follow up with a clear next step.
             </p>
           </motion.div>
 
@@ -165,7 +165,7 @@ export function FieldNoteEmbed() {
             }}
           >
             <iframe
-              title="Flow Studio Field Note Request"
+              title="Jenna Alecia Studios Field Note Request"
               src={TALLY_EMBED_URL}
               loading="lazy"
               width="100%"
