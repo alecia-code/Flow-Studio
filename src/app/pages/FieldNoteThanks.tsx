@@ -193,7 +193,7 @@ export function FieldNoteThanks() {
             View Case Studies
           </Link>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/jennahayes92/"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -237,10 +237,10 @@ export function FieldNoteThanks() {
         >
           Questions in the meantime?{' '}
           <a
-            href="mailto:hello@flowstudio.co"
+            href="mailto:Jenna.hayes0110@gmail.com"
             style={{ color: '#003D80', textDecoration: 'none' }}
           >
-            hello@flowstudio.co
+            Jenna.hayes0110@gmail.com
           </a>
         </motion.p>
       </div>

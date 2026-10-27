@@ -164,7 +164,7 @@ export function WhatHappensNextSection() {
               maxWidth: '580px',
             }}
           >
-            Flow can turn what we learn into a simpler system for how the business operates, responds, or makes decisions.
+            I can turn what we learn into a simpler system for how the business operates, responds, or makes decisions.
           </p>
 
         </div>

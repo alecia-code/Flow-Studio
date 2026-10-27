@@ -119,7 +119,7 @@ function BusinessPulseMockup() {
             fontWeight: 600,
           }}
         >
-          Flow Business Pulse
+          Business Pulse
         </span>
         <span
           style={{

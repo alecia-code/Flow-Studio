@@ -307,7 +307,7 @@ export function ClosingSection() {
                   margin: 0,
                 }}
               >
-                Flow will take it from there.
+                I’ll take it from there.
               </p>
             </div>
 
@@ -351,7 +351,7 @@ export function ClosingSection() {
                 textTransform: 'uppercase',
               }}
             >
-              Flow Studio
+              Jenna Alecia Studios
             </span>
           </div>
 

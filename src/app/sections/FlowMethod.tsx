@@ -71,7 +71,7 @@ export function FlowMethodSection() {
               textTransform: 'uppercase',
             }}
           >
-            The Flow Method
+            The Studio Method
           </span>
         </div>
 

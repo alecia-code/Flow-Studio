@@ -92,7 +92,7 @@ export function Nav() {
     if (el) {
       el.scrollIntoView({ behavior: 'smooth' });
       if (location.hash !== `#${id}`) {
-        window.history.replaceState(null, '', `/#${id}`);
+        navigate(`/#${id}`, { replace: true });
       }
     }
   };
@@ -136,7 +136,7 @@ export function Nav() {
       <div className="max-w-7xl mx-auto px-8 py-5 flex items-center justify-between">
         <button
           onClick={handleWordmark}
-          aria-label="Flow Studio, return to homepage"
+          aria-label="Jenna Alecia Studios, return to homepage"
           style={{
             fontFamily: "'Cormorant Garamond', serif",
             fontSize: '1.35rem',
@@ -152,7 +152,7 @@ export function Nav() {
           onMouseEnter={e => (e.currentTarget.style.opacity = '0.65')}
           onMouseLeave={e => (e.currentTarget.style.opacity = '1')}
         >
-          Flow Studio
+          Jenna Alecia Studios
         </button>
 
         <nav aria-label="Primary navigation" className="hidden md:flex items-center gap-10">

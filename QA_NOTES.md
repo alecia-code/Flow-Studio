@@ -1,3 +1,5 @@
+> Historical notes. See [the October 27 pre-launch audit](docs/LAUNCH_AUDIT.md) for current verification results and launch blockers.
+
 # Flow Studio — Code QA + About V1
 
 ## Completed in this pass

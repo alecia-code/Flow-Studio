@@ -1,3 +1,4 @@
+import { ServicesSection } from '../sections/Services';
 import { HeroSection } from '../sections/Hero';
 import { PhilosophySection } from '../sections/Philosophy';
 import { FlowMethodSection } from '../sections/FlowMethod';
@@ -15,6 +16,7 @@ export function Home() {
   return (
     <>
       <HeroSection />
+      <ServicesSection />
       <PhilosophySection />
       <FlowMethodSection />
       <CaseStudySection />

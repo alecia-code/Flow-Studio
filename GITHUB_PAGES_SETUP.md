@@ -1,3 +1,5 @@
+> Historical notes. See [the October 27 pre-launch audit](docs/LAUNCH_AUDIT.md) for current verification results and launch blockers.
+
 # Flow Studio: GitHub Pages Setup
 
 This export has been prepared to deploy the Flow Studio React/Vite site on GitHub Pages.

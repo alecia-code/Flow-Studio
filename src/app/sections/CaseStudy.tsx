@@ -199,7 +199,7 @@ export function CaseStudySection() {
                   paddingLeft: '34px',
                 }}
               >
-                Flow Case Study 01 / Customer Retention
+                Studio Case Study 01 / Customer Retention
               </div>
             </div>
 
@@ -246,7 +246,7 @@ export function CaseStudySection() {
                 maxWidth: '420px',
               }}
             >
-              Flow analyzed three months of customer and transaction data to uncover what was actually driving the decline.
+              I analyzed three months of customer and transaction data to uncover what was actually driving the decline.
             </p>
 
             {/* CTA */}
@@ -274,7 +274,7 @@ export function CaseStudySection() {
                 onMouseEnter={e => { e.currentTarget.style.opacity = '0.55'; }}
                 onMouseLeave={e => { e.currentTarget.style.opacity = '1'; }}
               >
-                See What Flow Found →
+                See What I Found →
               </button>
 
               <p

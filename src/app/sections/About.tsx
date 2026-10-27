@@ -59,7 +59,7 @@ export function AboutSection() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.25, 0, 0, 1] }}>
             <div style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', marginBottom: '38px' }}>
               <div style={{ width: '24px', height: '1px', backgroundColor: '#AECCEF' }} />
-              <span style={{ fontSize: '0.68rem', fontFamily: "'DM Sans', sans-serif", color: '#1A5296', letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 500 }}>About Flow</span>
+              <span style={{ fontSize: '0.68rem', fontFamily: "'DM Sans', sans-serif", color: '#1A5296', letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 500 }}>About Jenna Alecia Studios</span>
             </div>
             <h1
               id="about-heading"
@@ -74,7 +74,7 @@ export function AboutSection() {
 
           <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.12, ease: [0.25, 0, 0, 1] }} style={{ maxWidth: '430px', paddingBottom: '10px' }}>
             <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(1.5rem, 2.6vw, 2.15rem)', lineHeight: 1.35, fontStyle: 'italic', color: '#1A5296', margin: '0 0 24px' }}>
-              Flow began with a habit I couldn&apos;t turn off: looking underneath the obvious answer.
+              Jenna Alecia Studios began with a habit I couldn&apos;t turn off: looking underneath the obvious answer.
             </p>
             <p style={{ fontSize: '0.95rem', color: '#1A5296', lineHeight: 1.8, margin: 0 }}>
               I&apos;m drawn to the point where data, operations, and human behavior meet, because that is often where the real story is hiding.
@@ -104,7 +104,7 @@ export function AboutSection() {
                 What kept pulling me in was never the report itself. It was the investigation behind it: finding the discrepancy, connecting the pieces, and turning a messy business question into something people could actually act on.
               </p>
               <p style={{ fontSize: '1rem', color: '#1A5296', lineHeight: 1.75, margin: 0 }}>
-                Flow brings that way of thinking to growing businesses. Not enterprise complexity for its own sake, and not technology because it looks impressive. Just a clearer way to see the business and build around what the evidence is telling us.
+                Jenna Alecia Studios brings that way of thinking to growing businesses. Not enterprise complexity for its own sake, and not technology because it looks impressive. Just a clearer way to see the business and build around what the evidence is telling us.
               </p>
             </div>
           </motion.div>
@@ -134,14 +134,14 @@ export function AboutSection() {
       <section style={{ padding: '144px 32px 156px', position: 'relative', overflow: 'hidden' }}>
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[7fr_5fr] gap-14 lg:gap-24 items-end">
           <motion.div initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-60px' }} transition={{ duration: 0.7, ease: [0.25, 0, 0, 1] }}>
-            <p style={{ fontSize: '0.68rem', color: '#1A5296', letterSpacing: '0.12em', textTransform: 'uppercase', margin: '0 0 30px', fontWeight: 500 }}>The Flow Perspective</p>
+            <p style={{ fontSize: '0.68rem', color: '#1A5296', letterSpacing: '0.12em', textTransform: 'uppercase', margin: '0 0 30px', fontWeight: 500 }}>The Studio Perspective</p>
             <h2 style={{ fontSize: 'clamp(3rem, 6vw, 5.75rem)', lineHeight: 1.03, letterSpacing: '-0.03em', color: '#003D80', margin: 0, maxWidth: '850px' }}>
               Every business leaves clues about what deserves attention.
             </h2>
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-60px' }} transition={{ duration: 0.7, delay: 0.1, ease: [0.25, 0, 0, 1] }}>
             <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(1.6rem, 3vw, 2.45rem)', lineHeight: 1.35, color: '#1A5296', fontStyle: 'italic', margin: '0 0 34px' }}>
-              Flow exists to make those patterns visible, then turn the useful ones into something the business can actually use.
+              Jenna Alecia Studios exists to make those patterns visible, then turn the useful ones into something the business can actually use.
             </p>
             <button onClick={goToFieldNote} style={{ backgroundColor: '#003D80', color: '#FFFFFF', border: 'none', borderRadius: '100px', padding: '16px 30px', fontSize: '0.78rem', fontFamily: "'DM Sans', sans-serif", letterSpacing: '0.07em', textTransform: 'uppercase', cursor: 'pointer', fontWeight: 500 }}>
               Bring Me One Messy Problem →

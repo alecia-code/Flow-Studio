@@ -145,7 +145,7 @@ export function FieldNoteLumen() {
                 marginBottom: '20px',
               }}
             >
-              Featured Observation
+              Illustrative Field Note · Simulated Data
             </p>
             <h1
               style={{
