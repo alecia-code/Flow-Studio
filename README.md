@@ -1,56 +1,38 @@
-# Flow Studio
+# Jenna Alecia Studios
 
-**A consulting and systems studio for small businesses that need clearer operations, better visibility, and smarter workflows.**
+**Systems, automation, and business intelligence for growing businesses.**
 
-Flow Studio is an actively evolving business and technology project that brings together analytics, automation, process design, AI-enabled workflows, and thoughtful user experience to turn messy back-end operations into practical systems.
+Jenna Alecia Studios connects the tools businesses already use, builds reliable reporting, and creates thoughtful workflows so opportunities don't fall through the cracks.
 
-## The Problem
+## Our Services
 
-Small businesses often have valuable information scattered across tools, manual follow-up processes, inconsistent workflows, and limited visibility into what is driving performance. Flow Studio is designed around a simple question: **What is the clearest system or insight that would make this business easier to run?**
+### Lead-to-Booking Systems
+Capture inquiries, track response status, automate appropriate follow-ups, and measure which leads become paying customers.
 
-## What I'm Building
+### Business Pulse Dashboards
+Bring existing operational data together to make revenue, bookings, customer activity, and performance trends easier to understand.
 
-The current experience introduces Flow Studio and its **Field Note** diagnostic: a structured intake and analysis process designed to identify an operational opportunity, surface a useful insight, and recommend practical next steps.
+### Retention & Reactivation Systems
+Identify customers who haven't returned, track package expirations, and support targeted, permission-based follow-up.
 
-The broader concept includes:
+## Field Note
 
-- Business process and workflow analysis
-- Operational dashboards and KPI reporting
-- Customer retention and revenue insights
-- Automation opportunities
-- Structured discovery and requirements gathering
-- Clear, decision-ready recommendations
-
-## Why This Project Matters
-
-Flow Studio brings together business analysis, operational analytics, data quality, stakeholder discovery, process improvement, reporting, systems thinking, and AI-enabled workflows in one evolving project.
+Field Note is our diagnostic experience: share an operational challenge, examine the surrounding workflow and information, and identify a practical place to start.
 
 ## Technology
 
-- React
-- Vite
-- Tailwind CSS
-- Figma / Figma Make
-- GitHub Pages deployment workflow
+React · Vite · Tailwind CSS · Figma / Figma Make · GitHub Pages
 
-## Current Status
-
-Flow Studio is an actively evolving portfolio and business project. The current repository represents the public website build and will continue to develop as the service model, case studies, and client workflows mature.
-
-## Run Locally
+## Local Development
 
 ```bash
 npm install
 npm run dev
-```
-
-To create a production build:
-
-```bash
 npm run build
 ```
 
----
+## Project Status
 
-**Built by Jenna Hayes**  
-Business analysis · analytics · systems thinking · process improvement · AI-enabled workflows
+This repository contains the existing Flow Studio website, being modernized into Jenna Alecia Studios. The rebrand retains existing components and routes while introducing a clearer service-led experience. Any illustrated metrics and examples are concepts, not verified client results.
+
+**Built by Jenna Hayes**
